@@ -1,0 +1,83 @@
+input {
+    width: 350px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    margin-bottom: 12px;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: xx-large;
+    text-align: right;
+    outline: none;
+}
+
+table {
+    width: 400px;
+}
+
+td {
+    background-color: rgba(20, 20, 20, .3);
+    border-radius: 10px;
+    height: 50px;
+    width: 25%;
+    outline: none;
+}
+
+button {
+    background-color: #363636;
+    color: aliceblue;
+    height: 75%;
+    border-radius: 5px;
+    font-size: large;
+    border: none;
+    width: 75%;
+    display: block;
+    margin: auto auto;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, .9);
+    color: aliceblue;
+    height: 80%;
+    border-radius: 5px;
+    font-size: large;
+    width: 80%;
+    display: block;
+    margin: auto auto;
+}
+
+.text {
+    text-align: center;
+    font-size: larger;
+    font-family: "Bahnschrift";
+}
+
+.input_screen {
+    height: 80px;
+    border: 0.1px solid #3b3b3b;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: rgba(20, 20, 20, .3);
+}
+
+.btn_container {
+    display: block;
+    margin-top: 5%;
+}
+
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 5%;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;
+    box-shadow: 2px 2px 30px silver;
+}
+
+footer {
+    text-align: center;
+    margin-top: 120px;
+}
