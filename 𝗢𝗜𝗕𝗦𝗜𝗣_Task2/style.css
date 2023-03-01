@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(56, 52, 52);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+#quote_para {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#header {
+    background-color: #ffae00;
+    color: black;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: -1px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+#quote {
+    width: 100%;
+    height: 100px;
+    border-bottom: 10px solid rgba(208, 194, 194, 0.6);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 25px;
+    font: Georgia, serif;
+    font-weight: 800;
+    transition-duration: 500ms;
+}
+
+#quote:hover {
+    text-align: center;
+    font-size: 30px;
+    font: Georgia, serif;
+}
+
+.container {
+    padding: 5% 20%;
+}
+
+.stephenHawkingImg {
+    padding: 1% 20%;
+    text-align: center;
+}
+
+.info {
+    border: 1px solid white;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 3px solid white;
+}
+
+td {
+    font-family: 'Bahnschrift';
+    border: 1px solid #ffae00;
+    height: 30px;
+}
+
+td:hover {
+    font-family: 'Bahnschrift';
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 800;
+    background-color: rgb(0, 0, 0);
+}
+
+#td-1 {
+    width: 10%;
+    background-color: rgb(33, 31, 31);
+    border-radius: 20%;
+    text-align: center;
+}
+
+.overview {
+    font-size: large;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.timeline {
+    display: flex;
+    width: 100%;
+    height: 1000px;
+}
+
+.vertical_line {
+    width: 10px;
+    height: 99%;
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-left: 50%;
+    background-color: rgb(50, 50, 50);
+}
+
+.vertical_line:hover {
+    width: 10px;
+    height: 99%;
+    border-radius: 50px;
+    transition-duration: 1s;
+    margin-left: 50%;
+    background-color: rgb(100, 100, 100);
+}
+
+#vertical-line {
+    width: 10%;
+}
+
+#additional {
+    height: 10px;
+}
+
+.timestamp {
+    border: 1px solid white;
+}
+
+#row {
+    width: 80%;
+}
+
+.timeline_info {
+    width: 80%;
+}
+
+.line_box {
+    width: 10%;
+    height: 116%;
+}
+
+.more-info {
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 30%;
+    border: 1px soild white;
+    font-size: 18px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Comic Sans MS';
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 242, 255);
+}
+
+.end {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    width: 95%;
+    height: 100px;
+    border: 15px solid white;
+    font-family: 'Comic Sans MS';
+    font-size: 40px;
+    margin: auto auto;
+    padding-top: 30px;
+    border-bottom: 10px solid rgba(208, 194, 194, 0.6);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
